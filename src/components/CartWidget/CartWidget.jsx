@@ -1,7 +1,10 @@
+import {BsCart3} from 'react-icons/bs'
+import './CartWidget.css'
+
 const CartWidget = () => {
     return (
-        <div>
-            <img src="https://img.icons8.com/ios/50/000000/shopping-cart.png" alt="carrito" />
+        <div className='iconContainer'>
+            <BsCart3 className='cartIcon'/>
             0
         </div>
     )

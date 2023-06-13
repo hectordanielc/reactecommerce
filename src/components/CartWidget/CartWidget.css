@@ -1,0 +1,10 @@
+.iconContainer{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.cartIcon {
+    width: 30px;
+    height: 30px;
+}

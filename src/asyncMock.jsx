@@ -3,9 +3,9 @@ const prod = [
         id: 1,
         name: "Iphone 12",
         price: 1000, 
-        category: "Celular",
+        category: "celular",
         stock: 5,
-        img: "https://http2.mlstatic.com/D_NQ_NP_2X_901878-MLA45738484846_042021-F.webp",
+        img: "https://adminapi.applegadgetsbd.com/storage/media/large/1533-48820.jpg",
         description: "Descripcion de Iphone 12"
     },
     {
@@ -14,7 +14,7 @@ const prod = [
         price: 8000,
         category: "tablet",
         stock: 10,
-        img: "https://http2.mlstatic.com/D_NQ_NP_2X_901878-MLA45738484846_042021-F.webp",
+        img: "https://d500.epimg.net/cincodias/imagenes/2020/02/11/smartphones/1581422749_169001_1581448788_sumario_normal.jpg",
         description: "Descripcion de Samsung Galaxy S20"
     },
     {
@@ -23,17 +23,8 @@ const prod = [
         price: 7000,
         category: "notebook",
         stock: 15,
-        img: "https://http2.mlstatic.com/D_NQ_NP_2X_901878-MLA45738484846_042021-F.webp",
+        img: "https://i.blogs.es/befed4/moto-g9-03/450_1000.jpg",
         description: "Descripcion de Motorola G9"
-    },
-    { 
-        id: 1,
-        name: "Iphone 12",
-        price: 1000, 
-        category: "Celular",
-        stock: 5,
-        img: "https://http2.mlstatic.com/D_NQ_NP_2X_901878-MLA45738484846_042021-F.webp",
-        description: "Descripcion de Iphone 12"
     }
 ]
 

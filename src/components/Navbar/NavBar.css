@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #092e4b;
+    color: white;
+    
+}
+
+.logo{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.productOptions{
+    display: flex;
+    align-items: center;
+}
+
+.activeOption{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.Option{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;   
+}
+
