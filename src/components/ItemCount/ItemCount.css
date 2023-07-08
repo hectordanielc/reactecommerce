@@ -1,0 +1,9 @@
+.Counter .Controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Controls .Button {
+    margin: 10px;
+}

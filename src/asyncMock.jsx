@@ -1,6 +1,6 @@
 const prod = [
     { 
-        id: 1,
+        id:1,
         name: "Iphone 12",
         price: 1000, 
         category: "celular",
@@ -9,7 +9,7 @@ const prod = [
         description: "Descripcion de Iphone 12"
     },
     {
-        id: 2,
+        id:2,
         name: "Samsung Galaxy S20",
         price: 8000,
         category: "tablet",
@@ -18,7 +18,7 @@ const prod = [
         description: "Descripcion de Samsung Galaxy S20"
     },
     {
-        id: 3,
+        id:3,
         name: "Motorola G9",
         price: 7000,
         category: "notebook",
@@ -32,22 +32,22 @@ export const getProducts =  () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(prod)
-        }, 2000)
+        }, 500)
     })
 }
 
 export const getProductById = (productId) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve(prod.find(prod => prod.id === productId))
-        }, 2000)
-    })
-}
+            resolve(prod.find(prod => prod.id === parseInt(productId)));
+        }, 500);
+    });
+};
 
 export const getProductsByCategory = (category) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(prod.filter(prod => prod.category === category))
-        }, 2000)
+        }, 500)
     })
 }

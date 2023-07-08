@@ -1,10 +1,19 @@
-.iconContainer{
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
 
 .cartIcon {
     width: 30px;
     height: 30px;
+    color: white;
+}
+
+.cartWidget{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+} 
+
+.IconNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }

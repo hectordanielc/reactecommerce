@@ -5,10 +5,14 @@
     align-items: center;
     flex-wrap: wrap;
     width: 250px;
-    height: 400px;
+    height: 500px;
     border: 1px solid black;
     margin: 10px;
     text-align: center;
+}
+
+.option{
+    color: black;
 }
 
 .ItemImg{
