@@ -1,14 +1,8 @@
 import {useState} from 'react'
 import './ItemCount.css'
-import {useContext} from 'react'
-import {CartContext} from '../../context/CartContext'
-
-
 
 const ItemCount = ({stock, initial, onAdd}) => {
     const [quantity, setQuantity] = useState(initial)
-
-    const {addItem} = useContext(CartContext)
 
     const increment = () => {
         if (quantity < stock) {

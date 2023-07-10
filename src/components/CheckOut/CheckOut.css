@@ -1,0 +1,47 @@
+.CheckoutContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CheckoutLoading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.CheckoutOrder {
+    text-align: center;
+}
+
+.CheckoutOrderHeader {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.CheckoutOrderNumber {
+    font-size: 18px;
+}
+
+.CheckoutForm {
+    margin-top: 20px;
+}
+
+.CheckoutFormTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.CheckoutFormInput {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.CheckoutFormButton {
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}

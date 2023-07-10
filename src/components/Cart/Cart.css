@@ -1,0 +1,40 @@
+.CartContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CartItemContainer {
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.CartTotal {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Button {
+    padding: 10px 20px;
+    background-color: #092e4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.option {
+    padding: 10px 20px;
+    background-color: #092e4b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}

@@ -1,0 +1,27 @@
+.CheckoutForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.Label {
+    margin-bottom: 10px;
+    display: flex  ;
+    justify-content: space-between;
+    width: 400px
+}
+
+.Input {
+    padding: 5px;
+    width: 300px;
+}
